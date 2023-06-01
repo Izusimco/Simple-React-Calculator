@@ -7,11 +7,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: center; 
+
 }
 .calculator{
   padding: 20px;
   border-radius: 10px;
-  
+  color: white;
+ 
 }
 
 form input {
@@ -25,6 +27,7 @@ form input {
   border-radius: 10px;
   color: white;
   font-weight: bolder;
+  cursor: pointer;
   cursor: pointer;
 }
 

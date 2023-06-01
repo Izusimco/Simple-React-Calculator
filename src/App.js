@@ -7,10 +7,10 @@ function App() {
   const [value, setValue] = useState("");
   return (
     <div className="container">
-      <div className="calculatior">
+      <div className="calculator">
         <form action="">
           <div className="display">
-            <input type="text" value={value} />
+            <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
           </div>
           <div>
             <input type="button" value="AC" onClick={(e) => setValue("")} />
